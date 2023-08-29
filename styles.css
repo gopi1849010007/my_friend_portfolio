@@ -295,7 +295,7 @@ button.button {
 }
 .projects-heading {
   font-size: 8rem;
-  font-weight: 700;
+  font-weight: 100vh;
   color: var(--button-border);
 }
 .all-projects {
@@ -437,11 +437,25 @@ img[src="./images/stack/Git.svg"]:hover {
   cursor: pointer;
 }
 
+.main{
+  margin-bottom: 40%;
+}
+
+.main-project-3{
+  border:2px solid red;
+  margin-bottom:40%;
+
+}
+
 /* ************* Project - 02 ******************* */
 .all-projects .project-02 {
+
   background-image: url(./images/projects/Project2.png);
-  position: relative;
-  left: 5.5%;
+
+
+
+
+  
 }
 .project-03 {
   background-image: url(./images/projects/Project3.png);
