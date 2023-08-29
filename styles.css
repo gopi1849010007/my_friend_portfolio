@@ -438,36 +438,61 @@ img[src="./images/stack/Git.svg"]:hover {
 }
 
 .main{
-  margin-bottom: 40%;
+  margin-bottom: 30px;
 }
 
 .main-project-3{
-  border:2px solid red;
-  margin-bottom:40%;
+
+  margin-bottom:20%;
 
 }
 
 /* ************* Project - 02 ******************* */
 .all-projects .project-02 {
-
-  background-image: url(./images/projects/Project2.png);
-
-
-
-
+  height:100vh;
+  background-image: url(images/projects/Project2.png);
+}
+  
+.project-img{
+  margin-bottom: 10px;
   
 }
-.project-03 {
+
+.project-img img{
+  width:100%;
+
+}
+.project-02 {
+  height:100vh;
+  
+
   background-image: url(./images/projects/Project3.png);
+  left: 2.5%;
+  background-size:1%;
+
+}
+
+  
+
+.project-03 {
+  height:100vh;
+  
+
+  background-image: url(./images/projects/Project3.png);
+  left: 1.5%;
+  background-size:1%;
+
 }
 .project-04 {
+  height:100vh;
   background-image: url(./images/projects/Project4.png);
-  position: relative;
+
   left: 5.5%;
 }
 .project-number-right.number-left {
   left: -4%;
   width: fit-content;
+  
 }
 
 .flex.flex-move-right {
